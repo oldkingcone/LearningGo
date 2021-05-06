@@ -3,3 +3,4 @@ configs/
 *.exe
 *.xml
 libs/breacherLib
+libs/s3ProbeLib

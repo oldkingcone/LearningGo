@@ -19,8 +19,6 @@ func PrintMainBanner() bool{
 ░         ░           ░              ░  ░   ░
 ░
 
-
-
 built by: oldkingcone
 **********************************************
 * Dont break the law.                        *

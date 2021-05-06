@@ -122,7 +122,7 @@ func TestHost(RemoteHost string, RemotePort int, schema string, proxyHost bool) 
 }
 
 func Brute401(rHost string, rPort int, proxyHost bool, creds string, schema string, credlen int) bool {
-	conn, _ := http.NewRequest("POST", fmt.Sprintf("%s://%s:%d/index.php", schema, rHost, rPort), nil)
+	conn, _ := http.NewRequest("POST", fmt.Sprintf("%s://%s:%d/", schema, rHost, rPort), nil)
 	if proxyHost{
 		data, err := ioutil.ReadFile("configs/proxies/proxies.yml")
 		if err != nil{
